@@ -224,15 +224,6 @@ Return
 
 ---
 
-## Future Improvements
-
-- GSM alert system
-- IoT monitoring
-- STM32 migration
-- PIR motion detection
-- Energy analytics
-
----
 
 ## Author
 
