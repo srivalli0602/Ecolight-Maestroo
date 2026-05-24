@@ -145,30 +145,32 @@ LED = OFF
 ```text
 Ecolight-Maestro/
 │
-├── ARM/
-│   ├── main.c
-│   ├── LCD.c
-│   ├── RTC.c
+├── src/
+│   ├── MINI.c
 │   ├── ADC.c
-│   ├── KPM.c
-│   └── Header Files
+│   ├── KPM2.c
+│   ├── RTC_Main.c
+│   ├── LCD.c
+│   └── delayms.c
 │
-├── Proteus/
+├── inc/
+│   ├── ADC.h
+│   ├── ADC_defines.h
+│   ├── delaydef.h
+│   ├── kpm_defines.h
+│   └── lcd.h
+│
+├── simulation/
 │   ├── Project.pdsprj
 │   ├── HEX File
-│   └── Circuit Image
+│   └── Circuit Files
 │
-├── Video/
-│   └── Demo.mp4
-│
-├── Docs/
-│   └── Report.pdf
+├── media/
+│   ├── Demo.mp4
+│   └── Project_Image.png
 │
 └── README.md
 ```
-
----
-
 ## Interrupt Operation
 
 Push switch connected to:
