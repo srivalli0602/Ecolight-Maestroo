@@ -1,4 +1,4 @@
-# Ecolight Maestro - Smart Street Light Automation using LPC2148
+# Ecolight Maestro - Time and Light Intensity Street Light Automation using LPC2148
 
 ## Project Overview
 
