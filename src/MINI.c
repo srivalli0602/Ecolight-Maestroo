@@ -88,7 +88,7 @@ int main()
         else if(AdcDval<1000)
          StrLCD("0");
         U32LCD(AdcDval);
-			 if(AdcDval>300)
+			 if(AdcDval<300)
 			 {
 				 IOCLR1=255<<LEDs;
 			 }
